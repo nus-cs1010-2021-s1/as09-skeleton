@@ -431,7 +431,7 @@ The way to run your program is to do the following:
 cat <training samples> <testing samples> | ./digits
 ```
 
-We use cat which concatenate two files into one to pass
+We use `cat` which concatenate two files into one to pass
 both the training samples and testing samples into the
 program using the pipe `|`.
 
@@ -484,3 +484,11 @@ When you use the file `~cs1010/as09/train60000.in`
 as the training samples, you should receive 100%
 accuracy with `test30.in` and about 96.56% accuracy with
 `~cs1010/as09/test10000.in`
+
+## Grading
+
+- 10 marks for efficiency.  Your solution should run 
+  in O(n) time to get a full marks.
+- 25 marks for correctness.
+- No marks are allocated for style and documentation,
+  but we can deduct up to 5 marks for each category.
